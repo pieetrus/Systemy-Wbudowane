@@ -25,5 +25,5 @@ dictionary = {}
 for i in range(len(temp)):
     dictionary[temp[i][0]] = temp[i][1]
 
-
-print(dictionary)
+for i in dictionary:
+    print(i + ' : ' + dictionary[i])
